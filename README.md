@@ -6,7 +6,7 @@ Some categories are much rarer than others.
 **Data analysis:** check sequence lengths, measure annotator agreement, visualize the skewed label distribution.
 **Preprocessing:** RoBERTa tokenizer, label encoding, apply oversampling so that each of the ten categories appears equally often in training.
 
-**Model setup and finetuning**: 
+**Model setup**: 
 1) fine-tune a pretrained RoBERTa model on the balanced training split;
 2) add evaluation metrics capturing performance on minority classes
   ! check literature for best metrics: Matthew's Correlation Coefficient (MCC) 
