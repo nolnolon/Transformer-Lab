@@ -1,6 +1,7 @@
 # A complete pipeline for teaching a RoBERTa model to automatically sort open-ended questions into one of ten pre-defined categories. 
 
-~5 000 single-sentence questions, each labeled with one of 10 question-type tags (e.g. “concept,” “procedural,” “judgmental,” etc). Some categories are much rarer than others.
+~5 000 single-sentence questions, each labeled with one of 10 question-type tags (e.g. “concept,” “procedural,” “judgmental,” etc). 
+Some categories are much rarer than others.
 
 **Data analysis:** check sequence lengths, measure annotator agreement, visualize the skewed label distribution.
 **Preprocessing:** RoBERTa tokenizer, label encoding, apply oversampling so that each of the ten categories appears equally often in training.
